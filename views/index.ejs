@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./page_src/index.js"></script>
+    <title>BMI Calculation</title>
+</head>
+
+<body>
+    <div>
+        <div class="card">
+            <h2 class="textCenter">BMI Calculation</h2>
+            <br />
+            <label for="w">Your Weight (kg.)</label>
+            <input id="w" type="number" class="inputNumber" min="1" step="1" />
+            <br />
+            <br />
+            <label for="h">Your Hieght (cm.)</label>
+            <br />
+            <input id="h" type="number" class="inputNumber" min="1" step="1" />
+            <br />
+            <br />
+            <input id="subBtn" type="button" class="subBtn" value="submit" />
+            <br />
+        </div>
+        <br />
+        <div class="card">
+            <h1 id="resDesc" class="textCenter grayTxt">...</h1>
+            <h6 id="resVal" class="textCenter grayTxt">Results will be displayed here.</h6>
+        </div>
+    </div>
+
+</body>
+
+</html>
